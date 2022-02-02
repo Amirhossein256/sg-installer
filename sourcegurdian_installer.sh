@@ -22,7 +22,7 @@ SOURCE_GUARDIAN_FILE_NAME=SourceGuardian-loaders.linux-x86_64-12.1.2.zip
 
 #check extension in php.ini file
 if [[ ! "$(grep -P "ixed.\d+\.\d+.lin"  /usr/local/php$PHP_VERTION/lib/php.ini)" ]]; then
-  echo "add extension=ixed.$PHP_VERTION.lin to php.ini"
+  echo "add extension=ixed.$PHP_VERTION_NO_DOT.lin to php.ini"
   echo extension=ixed.$PHP_VERTION.lin >> /usr/local/php$PHP_VERTION_NO_DOT/lib/php.ini
 else
   echo "update sourcegurdian"
