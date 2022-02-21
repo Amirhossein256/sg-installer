@@ -18,7 +18,7 @@ PHP_VERTION_NO_DOT="${A[@]}"
 
 PHP_INI=/usr/local/php$PHP_VERTION_NO_DOT/lib/php.ini
 
-SOURCE_GUARDIAN_FILE_NAME=SourceGuardian-loaders.linux-x86_64-12.1.2.zip
+SOURCE_GUARDIAN_FILE_NAME=SourceGuardian-loaders.linux-x86_64-13.0.zip
 
 #check extension in php.ini file
 if [[ ! "$(grep -P "ixed.\d+\.\d+.lin"  /usr/local/php$PHP_VERTION/lib/php.ini)" ]]; then
