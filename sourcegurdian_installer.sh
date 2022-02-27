@@ -37,5 +37,4 @@ cd /usr/local/php$PHP_VERTION_NO_DOT/lib/php/extensions/no-debug-non-zts-*/
 wget https://bash-files.s3.ir-thr-at1.arvanstorage.com/$SOURCE_GUARDIAN_FILE_NAME >/dev/null 2>&1
 unzip -o $SOURCE_GUARDIAN_FILE_NAME >/dev/null 2>&1
 
-echo " "
-echo "done,restart handler and webserver"
+echo "done, restart handler and webserver"
