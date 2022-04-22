@@ -18,7 +18,7 @@ PHP_VERTION_NO_DOT="${A[@]}"
 PHP_INI=/usr/local/php$PHP_VERTION_NO_DOT/lib/php.ini
 DIRECTADMIN_INI=/usr/local/php$PHP_VERTION_NO_DOT/lib/php.conf.d/10-directadmin.ini
 
-SOURCE_GUARDIAN_FILE_NAME=SourceGuardian-loaders.linux-x86_64-13.0.zip
+SOURCE_GUARDIAN_FILE_NAME=SourceGuardian-loaders.linux-x86_64-13.0.3.zip
 
 #remove extension from ini files
 sed -i -r '/extension=ixed/d' $PHP_INI 
