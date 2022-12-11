@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
 clear
 echo "###############################################################################"
@@ -36,5 +36,8 @@ cd /usr/local/php$PHP_VERTION_NO_DOT/lib/php/extensions/no-debug-non-zts-*/
 #echo "download and extraxt sourcegurdian files"
 wget https://bash-files.s3.ir-thr-at1.arvanstorage.com/$SOURCE_GUARDIAN_FILE_NAME >/dev/null 2>&1
 unzip -o $SOURCE_GUARDIAN_FILE_NAME >/dev/null 2>&1
+
+/usr/local/directadmin/custombuild/build set ioncube yes
+/usr/local/directadmin/custombuild/build ioncube
 
 echo "done, restart handler and webserver"
