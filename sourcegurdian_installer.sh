@@ -12,7 +12,7 @@ abort() {
 PHP_VERTION=$1
 
 #dot vertion to no dot version (7.4 => 74) 
-A=(${PHP_VERTION//\./})
+A=${PHP_VERTION//\./}
 PHP_VERTION_NO_DOT="${A[@]}"
 
 PHP_INI=/usr/local/php$PHP_VERTION_NO_DOT/lib/php.ini
